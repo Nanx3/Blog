@@ -1,0 +1,39 @@
+
+@font-face {
+    font-family: QanelasRegular;
+    src: url("fonts/QanelasSoft-Regular.otf") format("opentype");
+}
+
+*{margin:0; padding:0}
+body{
+    background: #ffffff;
+    font-family: QanelasRegular !important;
+}
+.headerIS{height:44px; background:#32292A;}
+.headerIS h4{height:14px; line-height:44px; color:#fff; text-align:center}
+.login{padding:0 20px}
+.login span.un{width:10%; text-align:center; color:#ED5162; border-radius:3px 0 0 3px}
+.text{background:#12192C; width:90%; border-radius:0 3px 3px 0; border:none; outline:none; color:#000000;
+    font-family: QanelasRegular !important;
+}
+.text,.login span.un{display:inline-block; vertical-align:top; height:40px; line-height:40px; background:#ffffff}
+.btn:hover{background:#da4453;color:#ffffff}
+.btn{height:40px; border:none; background:#ED5162; outline:none;
+    font-family: QanelasRegular !important;
+    font-size:20px; font-weight:bold; color:#eee; border-bottom:solid 3px #da4453; border-radius:3px;}
+ul li{height:40px; margin:15px 0; list-style:none}
+.letras:hover{color:#da4453}
+.span{display:table; width:100%; font-size:14px;}
+.ch{display:inline-block; width:50%; color:#CCC}
+.ch a{color:#CCC; text-decoration:none}
+.ch:nth-child(2){text-align:right}
+.sign{width:90%; padding:0 5%; height:50px; display:table}
+.sign div{display:inline-block; width:50%; line-height:50px; color:#ccc; font-size:14px}
+.up{text-align:right}
+@media(max-width:480px){ .form{width:100%}}
+
+.logo{
+    position:relative;
+    height: 100px;
+    width: 100px;
+}

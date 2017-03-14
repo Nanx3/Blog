@@ -1,0 +1,53 @@
+
+@font-face {
+    font-family: QanelasRegular;
+    src: url("fonts/QanelasSoft-Regular.otf") format("opentype");
+}
+
+/* Inputs */
+.input-formMUI{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.dropdown-menu > li > a {
+    text-align: center !important;
+}
+
+/* Modal */
+.alineado{
+    margin-top: 50%;
+    text-align: center;
+}
+
+/* Titulo dentro del modal */
+.alineado-titulo{
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Modal en vista de consultar*/
+.consultar-registro{
+    margin-top: 50px;
+}
+
+.derecha{
+    text-align: right;
+}
+
+.centro{
+    text-align: center;
+}
+
+.divisor{
+    text-align: right;
+    margin-left: 40%;
+}
+
+.noLeido{
+    background-color: #b2dafb;
+}
+
+.Leido{
+    background-color: #ffffff;
+}

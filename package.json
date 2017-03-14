@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "scripts": {
+    "prod": "gulp --production",
+    "dev": "gulp watch"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "laravel-elixir": "^5.0.0",
+    "bootstrap-sass": "^3.0.0",
+    "intl": "^1.2.4",
+    "jquery": "^3.1.0",
+    "material-ui": "^0.16.0",
+    "moment": "^2.15.1",
+    "react": "^15.4.0",
+    "react-addons-css-transition-group": "^15.2.1",
+    "react-addons-shallow-compare": "^15.2.1",
+    "react-big-calendar": "^0.10.3",
+    "react-bootstrap": "^0.29.5",
+    "react-bootstrap-table": "^2.5.3",
+    "react-dom": "^15.1.0",
+    "react-dropzone": "^3.5.3",
+    "react-dropzone-component": "^1.2.0",
+    "react-motion": "^0.4.4",
+    "react-notification-center": "^1.2.2",
+    "react-router": "^2.5.2",
+    "react-selectize": "^2.0.3",
+    "react-swipeable-views": "^0.6.5",
+    "react-tap-event-plugin": "^2.0.0",
+    "remarkable": "1.6.2",
+    "toolbox": "^0.1.1"
+  }
+}

@@ -1,0 +1,333 @@
+
+@font-face {
+    font-family: QanelasRegular;
+    src: url("fonts/QanelasSoft-Regular.otf") format("opentype");
+}
+
+
+body{
+    font-family: QanelasRegular !important;
+}
+
+.react-selectize.material {
+    font-family: QanelasRegular !important;
+}
+
+div{
+    font-family: QanelasRegular !important;
+}
+
+div#dashboard>div:first-child {
+    height: 100%;
+}
+
+div#dashboard {
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background: #f8f8f8 !important;
+}
+
+.customname{
+    margin-left: 0;
+    font-weight: normal;
+}
+
+.customtipo{
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.customlabel{
+
+}
+
+.dividermulti{
+    /*border-bottom: 1px solid;*/
+}
+
+.topOption{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.bottomOption{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.simple-option{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.queryTable{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    border-right-width: 0px !important;
+    border-left-width: 0px !important;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    padding: 15px 8px !important;
+}
+.table-bordered {
+    border: none !important;
+}
+.table {
+    margin-bottom: 0px !important;
+}
+.table-bordered > thead > tr > th, .table-bordered > thead > tr > td {
+    border-bottom-width: 1px !important;
+}
+
+.form_background {
+    background-color:  #29a1db;
+    text-align: center;
+}
+
+.principal-select{
+    width: 100% !important;
+}
+
+.principal-select > .react-selectize-control{
+    min-width: 176.27px!important;
+}
+
+.principal-select > .react-selectize-control > .react-selectize-placeholder{
+    position: relative;
+    max-width: 176.27px !important;
+}
+
+#content {
+    background: white !important;
+}
+
+.reporte-link {
+    color: blue;
+    text-decoration: underline;
+}
+
+.responstable {
+    margin: 1em 0;
+    width: 100%;
+    overflow: hidden;
+    background: #FFF;
+    color: #024457;
+    border-radius: 10px;
+    border: 1px solid #167F92;
+}
+.responstable tr {
+    border: 1px solid #D9E4E6;
+}
+.responstable tr:nth-child(odd) {
+    background-color: #EAF3F3;
+}
+.responstable th {
+    display: none;
+    border: 1px solid #FFF;
+    background-color: #167F92;
+    color: #FFF;
+    padding: 1em;
+}
+.responstable th:first-child {
+    display: table-cell;
+    text-align: center;
+}
+.responstable th:nth-child(2) {
+    display: table-cell;
+}
+.responstable th:nth-child(2) span {
+    display: none;
+}
+.responstable th:nth-child(2):after {
+    content: attr(data-th);
+}
+@media (min-width: 480px) {
+    .responstable th:nth-child(2) span {
+        display: block;
+    }
+    .responstable th:nth-child(2):after {
+        display: none;
+    }
+}
+.responstable td {
+    display: block;
+    word-wrap: break-word;
+    max-width: 7em;
+}
+.responstable td:first-child {
+    display: table-cell;
+    text-align: center;
+    border-right: 1px solid #D9E4E6;
+}
+@media (min-width: 480px) {
+    .responstable td {
+        border: 1px solid #D9E4E6;
+    }
+}
+.responstable th, .responstable td {
+    text-align: center;
+    margin: .5em 1em;
+}
+@media (min-width: 480px) {
+    .responstable th, .responstable td {
+        display: table-cell;
+        padding: 1em;
+    }
+}
+
+.headcol {
+    position:fixed;
+}
+
+.scrollTable {
+    overflow-x:scroll;
+}
+
+.numberNotif {
+    text-align: right;
+    color: #bd362f;
+}
+
+.unread{
+    background-color: #68cbf5;
+}
+
+.notify-drop{
+    padding-bottom: 30px !important;
+}
+
+.report-loader{
+    text-align: center !important;
+    padding-top: 20px !important;
+}
+
+.notify-element{
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+    height: 100%;
+}
+
+.notify-element a{
+    height: 100%;
+}
+
+.notify-ul{
+    height:100%;
+}
+
+.headerbar-right{
+    height: 100% !important;
+}
+
+.headerbar{
+    height: 100% !important;
+}
+
+.notify-element a > div{
+    padding-top: 20px !important;
+}
+
+.has-actions .section-action{
+    left: 0 !important;
+    position: fixed !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    z-index: 20 !important;
+    box-shadow: 0 -1px 3px 0 rgba(0, 0, 0, 0.33) !important;
+}
+
+section:first-child {
+    padding-top: 0;
+}
+
+.no-bottom{
+    bottom: 0 !important;
+}
+
+.brand-holder > a > img{
+    height: 100%;
+    width: 100px;
+}
+
+section .style-primary, .offcanvas-pane .style-primary, .card .style-primary, section.style-primary, .offcanvas-pane.style-primary, .card.style-primary {
+    background-color: #29a1db !important;
+    border-color: #29a1db !important;
+}
+
+.text-primary {
+    color: #29a1db !important;
+}
+
+.btn-accent {
+    background-color: #254392 !important;
+    border-color: #254392 !important;
+}
+
+.btn-accent:hover {
+    background-color: #242C53 !important;
+    border-color: #242C53 !important;
+}
+
+#menubar.menubar-inverse:before {
+    background: #262626 !important;
+}
+
+.menubar-inverse .gui-controls a.expanded .gui-icon, .menubar-inverse .gui-controls li.active .gui-icon, .menubar-inverse .gui-controls li.active .gui-icon:hover {
+    color:  #29a1db !important;
+}
+
+.gui-controls a.expanded .gui-icon, .gui-controls li.active .gui-icon, .gui-controls li.active .gui-icon:hover {
+    color:  #29a1db !important;
+}
+
+.form_background {
+    background-color: #29a1db !important;
+}
+
+.pagination > .active > a{
+    background-color: #FFF;
+    border-color: #242C53;
+    color: #242C53;
+}
+
+.pagination > .active > a:hover{
+    background-color: #242C53;
+    border-color: #FFF;
+    color: #FFF;
+}
+
+.notify-element > a > div > span{
+    background-color: #29a1db !important;
+}
+
+.react-selectize.material.root-node .react-selectize-control:after{
+    background-color: #039be5 !important;
+}
+.text-accent {
+    color: #039be5 !important;
+}
+
+.section-floating-action-row-eliminar {
+    position: absolute;
+    right: 90px;
+    top: 0;
+}
+.section-floating-action-row-eliminar .btn {
+    top: -20px;
+}
+.section-floating-action-row-eliminar .btn-lg {
+    top: -28px;
+}
+.section-floating-action-row-eliminar .btn-sm {
+    top: -18px;
+}
+.section-floating-action-row-eliminar .btn-xs {
+    top: -15px;
+}
+
